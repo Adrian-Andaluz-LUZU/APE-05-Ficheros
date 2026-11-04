@@ -24,3 +24,39 @@ Para resolver este ejercicio, se utiliza la clase File para representar el archi
 
 ### Evidencia de ejecución
 <img width="467" height="78" alt="image" src="https://github.com/user-attachments/assets/2b2de3a5-bf92-45e4-8dd4-31dc2982be1d" />
+
+---
+
+## Ejercicio 2: Escribir información en un fichero
+**Tema:** Escritura de información en archivos.
+
+### Enunciado
+Desarrollar un programa en Java que permita ingresar un mensaje por teclado y almacenarlo en un archivo de texto existente llamado estudiantes.txt.
+
+**Indicaciones:**
+1. Importar las clases necesarias.
+2. Crear un objeto Scanner para ingresar información por teclado.
+3. Solicitar al usuario que escriba un mensaje.
+4. Utilizar FileWriter para abrir el archivo estudiantes.txt.
+5. Utilizar el parámetro true para conservar la información anterior y agregar el nuevo mensaje al final.
+6. Utilizar el método write() para guardar el mensaje.
+7. Cerrar el archivo utilizando close().
+8. Mostrar un mensaje indicando que la información se guardó correctamente.
+9. Controlar posibles errores mediante try-catch.
+
+**Clases y métodos sugeridos:**
+- Scanner
+- FileWriter
+- IOException
+- write()
+- close()
+
+**Nota:** El archivo estudiantes.txt debe existir previamente.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase Scanner para ingresar un mensaje mediante el teclado. Posteriormente, se emplea FileWriter para abrir el archivo estudiantes.txt en modo de escritura, utilizando el parámetro true para conservar la información existente y agregar el nuevo contenido al final. Se utiliza el método write() para almacenar el mensaje y close() para cerrar el archivo. Finalmente, se muestra un mensaje de confirmación y se utiliza try-catch para controlar posibles errores durante la escritura.
+
+### Evidencia de ejecución
+<img width="706" height="98" alt="image" src="https://github.com/user-attachments/assets/478cd2c0-6544-4962-88de-a2c371ed7bd8" />
+
+
