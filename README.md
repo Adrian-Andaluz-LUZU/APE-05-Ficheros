@@ -59,4 +59,33 @@ Para resolver este ejercicio, se utiliza la clase Scanner para ingresar un mensa
 ### Evidencia de ejecución
 <img width="706" height="98" alt="image" src="https://github.com/user-attachments/assets/478cd2c0-6544-4962-88de-a2c371ed7bd8" />
 
+---
+
+## Ejercicio 3: Eliminar un fichero en Java
+**Tema:** Eliminación de archivos.
+
+### Enunciado
+Desarrollar un programa en Java que permita eliminar el archivo de texto estudiantes.txt.
+
+**Indicaciones:**
+1. Importar la clase necesaria para trabajar con archivos.
+2. Crear un objeto de tipo File indicando el nombre del archivo que se desea eliminar.
+3. Utilizar el método delete() para intentar eliminar el archivo.
+4. Comprobar si la eliminación se realizó correctamente.
+5. Si el archivo se eliminó, mostrar un mensaje de confirmación.
+6. Si no se pudo eliminar, mostrar un mensaje indicando el problema.
+
+**Clases y métodos sugeridos:**
+- File
+- delete()
+- if-else
+- System.out.println()
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase File para representar el archivo estudiantes.txt que se desea eliminar. Se crea un objeto indicando el nombre del archivo y posteriormente se utiliza el método delete() para intentar eliminarlo. Mediante una estructura condicional if-else se comprueba el resultado de la operación: si el archivo se elimina correctamente, se muestra un mensaje de confirmación; de lo contrario, se informa que no fue posible realizar la eliminación.
+
+### Evidencia de ejecución
+<img width="527" height="128" alt="image" src="https://github.com/user-attachments/assets/23f0b49e-7251-4405-b7b6-84dd14d47404" />
+
+
 
