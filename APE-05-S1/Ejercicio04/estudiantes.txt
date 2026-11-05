@@ -1,0 +1,3 @@
+--- Estudiante 1 ---
+Ingrese el nombre: Adrian Andaluz
+Ingrese la calificacion: 8
