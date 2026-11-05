@@ -1,0 +1,2 @@
+Venta - Producto: Refresco | Subtotal: $15.0 | Total con descuento: $15.0
+=== TOTAL ACUMULADO DE VENTAS: $15.0 ===
