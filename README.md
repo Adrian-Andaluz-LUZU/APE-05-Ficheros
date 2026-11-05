@@ -108,6 +108,29 @@ Para resolver este ejercicio, se utiliza la clase Scanner para solicitar por tec
 ### Evidencia de ejecución
 <img width="903" height="91" alt="image" src="https://github.com/user-attachments/assets/77789524-afa5-4fc8-ba28-bee3749a04fe" />
 
+---
+## Ejercicio 5: Registro de productos con modo Append
+**Tema:** Escritura de archivos y modo Append.
+
+### Enunciado
+Desarrollar un programa que permita registrar productos en un archivo llamado productos.txt.
+
+**El programa debe:**
+1. Solicitar el nombre del producto.
+2. Solicitar su precio.
+3. Solicitar la cantidad disponible.
+4. Calcular el valor total del producto (precio × cantidad).
+5. Guardar los resultados en el archivo.
+6. Permitir registrar nuevos productos sin borrar los registros anteriores.
+7. Utilizar BufferedWriter y modo append.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase Scanner para ingresar el nombre, precio y cantidad disponible de cada producto. Luego, se calcula el valor total multiplicando el precio por la cantidad. Para almacenar la información, se emplean las clases FileWriter y BufferedWriter, utilizando el modo append para agregar nuevos registros al archivo productos.txt sin eliminar los datos existentes. Finalmente, se guarda la información de cada producto junto con su valor total.
+
+### Evidencia de ejecución
+<img width="890" height="108" alt="image" src="https://github.com/user-attachments/assets/ce50a735-702f-4e8b-90de-13ad92854397" />
+
+
 
 
 
