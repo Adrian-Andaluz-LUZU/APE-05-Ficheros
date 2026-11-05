@@ -130,6 +130,31 @@ Para resolver este ejercicio, se utiliza la clase Scanner para ingresar el nombr
 ### Evidencia de ejecución
 <img width="890" height="108" alt="image" src="https://github.com/user-attachments/assets/ce50a735-702f-4e8b-90de-13ad92854397" />
 
+---
+
+## Ejercicio 6: Sistema de registro de ventas
+**Tema:** Registro de ventas, cálculos y almacenamiento en archivos.
+
+### Enunciado
+Desarrollar un programa en Java que permita registrar las ventas de una tienda y guardar la información en un archivo llamado ventas.txt.
+
+**El programa debe:**
+1. Solicitar el nombre del producto.
+2. Solicitar el precio y la cantidad vendida.
+3. Calcular el subtotal de cada venta.
+4. Si el subtotal es mayor o igual a $100, aplicar un descuento del 10%.
+5. Mostrar el total a pagar.
+6. Permitir registrar varios productos hasta que el usuario escriba fin.
+7. Guardar cada venta en el archivo sin eliminar los registros anteriores.
+8. Al finalizar, guardar el total acumulado de las ventas realizadas.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase Scanner para solicitar el nombre, precio y cantidad vendida de cada producto. Se calcula el subtotal multiplicando el precio por la cantidad y se aplica una estructura condicional para verificar si corresponde un descuento del 10%, cuando el subtotal sea mayor o igual a $100. El programa permite registrar varios productos mediante una estructura repetitiva hasta que el usuario escriba "fin". Cada venta se almacena en el archivo ventas.txt utilizando BufferedWriter y el modo append para conservar los registros anteriores. Finalmente, se calcula y guarda el total acumulado de las ventas realizadas.
+
+### Evidencia de ejecución
+<img width="899" height="136" alt="image" src="https://github.com/user-attachments/assets/73fcd1f9-b5a8-432c-8b80-dbc0be82528d" />
+
+
 
 
 
