@@ -87,5 +87,27 @@ Para resolver este ejercicio, se utiliza la clase File para representar el archi
 ### Evidencia de ejecución
 <img width="527" height="128" alt="image" src="https://github.com/user-attachments/assets/23f0b49e-7251-4405-b7b6-84dd14d47404" />
 
+---
+## Ejercicio 4: Registro de estudiantes y calificaciones
+**Tema:** Escritura de datos en archivos.
+
+### Enunciado
+Desarrollar un programa en Java que permita registrar los datos de 3 estudiantes y guardar la información en un archivo llamado estudiantes.txt.
+
+**El programa debe:**
+1. Solicitar el nombre del estudiante.
+2. Solicitar su calificación.
+3. Guardar ambos datos en el archivo.
+4. Cada estudiante debe ocupar dos líneas.
+5. Utilizar Scanner, BufferedWriter y FileWriter.
+6. Cerrar correctamente el archivo.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase Scanner para solicitar por teclado el nombre y la calificación de tres estudiantes. Posteriormente, se emplean las clases FileWriter y BufferedWriter para crear y escribir la información en el archivo estudiantes.txt. Cada estudiante se registra en dos líneas diferentes, almacenando su nombre y su respectiva calificación. Finalmente, se cierra correctamente el archivo para garantizar que la información quede guardada.
+
+### Evidencia de ejecución
+<img width="903" height="91" alt="image" src="https://github.com/user-attachments/assets/77789524-afa5-4fc8-ba28-bee3749a04fe" />
+
+
 
 
