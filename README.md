@@ -206,6 +206,27 @@ Para resolver este ejercicio, se utiliza la clase `FileWriter` para establecer e
 ### Evidencia de ejecución
 <img width="622" height="268" alt="image" src="https://github.com/user-attachments/assets/538bc37b-ac07-4830-82be-1c2033c16421" />
 
+---
+
+## Ejercicio 9: Control del Modo de Apertura (Append vs Sobrescribir)
+**Tema:** Modos de escritura en archivos.
+
+### Enunciado
+A partir del archivo "materias.txt" generado en el ejercicio anterior, escribe un nuevo programa en Java que demuestre el comportamiento del segundo parámetro en el constructor de `FileWriter`:
+
+1. Diseña el código de manera que abra el fichero existente configurando el `FileWriter` en modo de adición (`append = true`).
+2. Añade dos nuevas asignaturas al final del archivo utilizando nuevamente `newLine()` para no romper el formato de líneas.
+3. Asegúrate de cerrar el flujo con `.close()`.
+4. **Comprobación:** Verifica que el contenido previo no se haya sobrescrito y que ahora el archivo conserve las cinco asignaturas originales junto con las dos nuevas incorporadas al final.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza el archivo materias.txt creado anteriormente y se abre mediante la clase `FileWriter`, configurando el segundo parámetro en `true` para activar el modo append. Posteriormente, se emplea `BufferedWriter` para agregar dos nuevas asignaturas al final del archivo, utilizando `write()` para escribir cada una y `newLine()` para separarlas correctamente. Finalmente, se cierra el flujo mediante `close()` y se comprueba que las cinco asignaturas originales se mantienen junto con las dos nuevas, sin sobrescribir la información anterior.
+
+### Evidencia de ejecución
+<img width="605" height="245" alt="image" src="https://github.com/user-attachments/assets/8c2c16ad-5904-4470-8abe-0bd7e1d403ef" />
+
+---
+
 
 
 
