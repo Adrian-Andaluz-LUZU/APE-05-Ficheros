@@ -1,4 +1,19 @@
 # APE-05-Ficheros
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+##  Información General
+
+* **Carrera:** Ingeniería en Software  
+* **Asignatura:** Algoritmos y Lógica de Programación  
+* **Nivel / Parallelo:** Primer Semestre — Paralelo B  
+* **Actividad:** APE 5 – Ficheros 
+* **Modalidad:** Presencial  
+* **Integrantes:** Adrián Andaluz
+
+---
+
 ## Ejercicio 1: Crear un fichero en Java
 **Tema:** Creación de archivos.
 
