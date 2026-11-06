@@ -188,6 +188,23 @@ Para resolver este ejercicio, se utiliza la clase `File` para representar la rut
 
 ---
 
+## Ejercicio 8: Escritura Estructurada por Líneas con BufferedWriter
+**Tema:** Escritura de archivos mediante flujos de datos.
+
+### Enunciado
+Tomando como referencia el flujo de datos desde la memoria RAM hasta el archivo en disco, desarrolla un programa en Java que cree un fichero de texto llamado "materias.txt". El programa debe realizar las siguientes acciones:
+
+1. Configurar un flujo de salida utilizando un objeto `BufferedWriter` enlazado con un `FileWriter`.
+2. Escribir un listado de cinco asignaturas de tu elección en el archivo.
+3. Emplear el método portable `newLine()` para asegurar que cada asignatura quede guardada estrictamente en una línea independiente.
+4. Liberar los recursos de forma correcta invocando el método de cierre (`close()`) y controlar cualquier error potencial de escritura mediante una excepción de tipo `IOException`.
+5. **Verificación:** Comprueba físicamente en la carpeta de tu proyecto que el archivo se generó correctamente y que mantiene una única asignatura por línea.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase `FileWriter` para establecer el flujo de escritura hacia el archivo materias.txt y `BufferedWriter` para gestionar la escritura de información de manera estructurada. Se seleccionan cinco asignaturas y se escriben utilizando el método `write()`. Después de cada asignatura, se emplea `newLine()` para garantizar que cada una ocupe una línea independiente. Finalmente, se utiliza `close()` para cerrar el flujo de escritura y se controla cualquier posible error mediante una excepción `IOException`. Se verifica que el archivo se haya generado correctamente y que contenga las cinco asignaturas en líneas separadas.
+
+### Evidencia de ejecución
+<img width="622" height="268" alt="image" src="https://github.com/user-attachments/assets/538bc37b-ac07-4830-82be-1c2033c16421" />
 
 
 
