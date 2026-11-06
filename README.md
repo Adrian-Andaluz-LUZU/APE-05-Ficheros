@@ -226,6 +226,23 @@ Para resolver este ejercicio, se utiliza el archivo materias.txt creado anterior
 <img width="605" height="245" alt="image" src="https://github.com/user-attachments/assets/8c2c16ad-5904-4470-8abe-0bd7e1d403ef" />
 
 ---
+## Ejercicio 10: Ciclo de Vida Completo y Borrado Seguro
+**Tema:** Creación, validación y eliminación de archivos.
+
+### Enunciado
+Diseña un script completo en Java que emule el recorrido guiado de gestión de ficheros visto en clase:
+
+1. Construye un objeto `File` que represente la ruta "datos/temporal.txt".
+2. Consulta el estado del archivo mediante `exists()` y, si no se encuentra disponible, créalo de forma segura controlando la excepción `IOException`.
+3. Implementa una fase de validación en la que declares una variable de control booleana (por ejemplo, `boolean confirmarBorrado = true;`) para simular la solicitud de confirmación por parte del usuario antes de eliminar datos importantes.
+4. Utiliza el método `delete()` exclusivamente si dicha confirmación es verdadera, imprimiendo por consola un mensaje que refleje el resultado booleano de la operación de eliminación.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase `File` para representar la ruta datos/temporal.txt. Primero, se comprueba mediante `exists()` si el archivo ya existe y, en caso contrario, se intenta crearlo utilizando `createNewFile()`, controlando posibles errores con `IOException`. Posteriormente, se declara una variable booleana llamada `confirmarBorrado` para simular la autorización antes de eliminar el archivo. Mediante una estructura condicional, se verifica si la confirmación es verdadera y únicamente en ese caso se ejecuta el método `delete()`. Finalmente, se muestra en consola el resultado booleano de la operación para indicar si la eliminación se realizó correctamente.
+
+### Evidencia de ejecución
+<img width="607" height="120" alt="image" src="https://github.com/user-attachments/assets/4a9a3ae0-787b-42fd-8a32-f607c33d8b2d" />
+
 
 
 
