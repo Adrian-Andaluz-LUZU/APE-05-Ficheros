@@ -11,3 +11,21 @@ Para resolver este ejercicio, se utiliza un archivo de texto llamado pistas.txt 
 
 ### Evidencia de ejecución
 <img width="369" height="113" alt="image" src="https://github.com/user-attachments/assets/235a9ea1-3972-4e50-b00e-5fb9e4841f73" />
+
+---
+
+## Ejercicio 2: Estación espacial – Descifrado de mensajes
+**Tema:** Lectura de archivos carácter por carácter.
+
+### Enunciado
+Una estación espacial recibe un mensaje de emergencia almacenado en mensaje.txt. Desarrolla un programa que lea el archivo carácter por carácter utilizando FileReader y el método read(), muestre su contenido y contabilice el número total de caracteres.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase FileReader para establecer un flujo de lectura desde el archivo mensaje.txt. Mediante el método read(), se obtiene cada carácter del archivo de manera individual. Se implementa una estructura repetitiva que permite recorrer todo el contenido hasta alcanzar el final del archivo. Durante el proceso, cada carácter se muestra en pantalla y se incrementa un contador para registrar la cantidad total de caracteres leídos. Finalmente, se presenta el contenido del mensaje y el número total de caracteres.
+
+### Evidencia de ejecución
+<img width="596" height="72" alt="image" src="https://github.com/user-attachments/assets/619c12b3-6d1f-49a0-8adb-fd3975bc9bae" />
+
+---
+
+
