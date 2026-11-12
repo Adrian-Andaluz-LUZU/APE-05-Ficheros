@@ -1,0 +1,5 @@
+Carlos Perez, 120
+Maria Gomez, 185
+Juan Lopez, 95
+Ana Martinez, 210
+Luis Rodriguez, 150
