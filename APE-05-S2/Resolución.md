@@ -43,5 +43,20 @@ Para resolver este ejercicio, se utiliza el archivo obras.txt, que contiene los 
 ### Evidencia de ejecución
 <img width="586" height="174" alt="image" src="https://github.com/user-attachments/assets/8b91ec49-d576-473b-850c-fee9698b4ece" />
 
+---
+
+## Ejercicio 4: Parque de aventuras – Resultados de participantes
+**Tema:** Lectura de archivos con BufferedReader y procesamiento de datos.
+
+### Enunciado
+Un parque de aventuras almacena los nombres y puntajes de sus participantes en un archivo llamado resultados.txt. Desarrolla un programa que lea la información utilizando BufferedReader, muestre los participantes, calcule el puntaje total e identifique el puntaje más alto.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza la clase BufferedReader para leer la información almacenada en el archivo resultados.txt. Se recorren los registros para obtener los nombres y puntajes de los participantes, mostrando cada uno en la consola. Durante la lectura, se utiliza una variable acumuladora para calcular el puntaje total y otra variable para identificar el puntaje más alto registrado. Finalmente, se muestran los participantes, el puntaje acumulado y el puntaje máximo obtenido.
+
+### Evidencia de ejecución
+<img width="588" height="164" alt="image" src="https://github.com/user-attachments/assets/95d239f7-5bea-4d38-a18c-5f166d56e97a" />
+
+
 
 
