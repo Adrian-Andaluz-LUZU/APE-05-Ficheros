@@ -29,3 +29,19 @@ Para resolver este ejercicio, se utiliza la clase FileReader para establecer un 
 ---
 
 
+## Ejercicio 3: Museo digital – Registro de obras
+**Tema:** Lectura y clasificación de información.
+
+### Enunciado
+Un museo almacena información de sus obras de arte en un archivo llamado obras.txt.
+
+Cada línea contiene el nombre de una obra y su categoría. Desarrolla un programa que lea los registros, muestre las obras y clasifique cuántas pertenecen a cada categoría.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se utiliza el archivo obras.txt, que contiene los nombres de las obras de arte junto con sus respectivas categorías. Se implementa un mecanismo de lectura que permite recorrer los registros almacenados y mostrar la información de cada obra en pantalla. Posteriormente, se identifica la categoría correspondiente a cada registro y se utilizan variables contadoras para clasificar y contabilizar cuántas obras pertenecen a cada categoría. Finalmente, se muestran los resultados de la clasificación y la cantidad total de obras registradas por categoría.
+
+### Evidencia de ejecución
+<img width="586" height="174" alt="image" src="https://github.com/user-attachments/assets/8b91ec49-d576-473b-850c-fee9698b4ece" />
+
+
+
