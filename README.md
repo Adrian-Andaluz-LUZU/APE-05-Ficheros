@@ -10,7 +10,7 @@
 * **Nivel / Parallelo:** Primer Semestre — Paralelo B  
 * **Actividad:** APE 5 – Ficheros 
 * **Modalidad:** Presencial  
-* **Integrantes:** Adrián Andaluz
+* **Integrantes:** Adrián Andaluz,Ariel Chanatasig, Paulo Escobar, Mateo Salazar
 
 ---
 
