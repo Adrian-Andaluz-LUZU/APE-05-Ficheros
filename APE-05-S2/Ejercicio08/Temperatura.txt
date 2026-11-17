@@ -1,0 +1,12 @@
+¿Cuántas temperaturas desea registrar? 5
+
+Temperatura 1: 25
+Temperatura 2: 32
+Temperatura 3: 28
+Temperatura 4: 35
+Temperatura 5: 30
+=== RESULTADOS ===
+Promedio: 30.0 °C
+Temperatura más alta: 35.0 °C
+Temperaturas superiores a 30 °C: 2
+Total de registros válidos: 5
