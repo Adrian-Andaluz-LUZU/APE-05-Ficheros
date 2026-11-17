@@ -75,5 +75,20 @@ Para resolver este ejercicio, se crea un programa con un menú de opciones que s
 
 <img width="471" height="351" alt="image" src="https://github.com/user-attachments/assets/65ddbfb0-cae6-4308-af44-40a8e5953474" />
 
+---
 
+## Ejercicio 6: Sistema de mensajes secretos
 
+**Tema:** Escritura y lectura de archivos con FileWriter, BufferedWriter, FileReader y BufferedReader.
+
+### Enunciado
+
+Un grupo de investigadores almacena mensajes en un archivo llamado secreto.txt. Desarrolla un programa en Java que permita escribir mensajes utilizando FileWriter y BufferedWriter, agregar nuevos mensajes sin sobrescribir los anteriores y leer su contenido mediante FileReader y BufferedReader. El programa deberá mostrar los mensajes, contar las líneas registradas y controlar posibles errores de entrada y salida.
+
+### Descripción de la resolución
+
+Para resolver este ejercicio, se crea un programa con un menú de opciones que se repite hasta que el usuario elige salir. Para escribir un mensaje se utiliza la clase FileWriter en modo agregar (append = true) junto con BufferedWriter, de modo que cada nuevo mensaje se guarda al final del archivo secreto.txt sin sobrescribir los anteriores. Para leer, primero se utiliza la clase File para validar que el archivo exista; luego se recorre con FileReader y BufferedReader línea por línea, mostrando cada mensaje numerado en la consola. Durante la lectura se utiliza una variable contadora que aumenta con cada línea leída, y al final se muestra el total de líneas registradas. Los posibles errores de entrada y salida se controlan con bloques try-catch (IOException), mostrando un mensaje al usuario en lugar de detener el programa.
+
+### Evidencia de ejecución
+
+<img width="458" height="542" alt="image" src="https://github.com/user-attachments/assets/1aebc4e3-bb71-4bfa-b5cf-767aa520a37e" />
