@@ -1,0 +1,18 @@
+Carlos,85
+Ana,90
+Pedro,65
+Luis,78
+Maria,95
+=== COMPETENCIA DE VIDEOJUEGOS ===
+
+Jugadores con más de 70 puntos:
+Carlos - 85.0
+Ana - 90.0
+Luis - 78.0
+Maria - 95.0
+
+=== RESULTADOS ===
+Promedio: 82.6
+Mayor puntaje: 95.0
+Jugador ganador: Maria
+Jugadores registrados: 5
