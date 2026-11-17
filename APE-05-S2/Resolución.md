@@ -92,3 +92,63 @@ Para resolver este ejercicio, se crea un programa con un menú de opciones que s
 ### Evidencia de ejecución
 
 <img width="458" height="542" alt="image" src="https://github.com/user-attachments/assets/1aebc4e3-bb71-4bfa-b5cf-767aa520a37e" />
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Ejercicio 9: Diario de exploradores – Escritura y lectura con append
+
+**Tema:** Escritura, lectura y búsqueda en archivos de texto (modo *append*).
+
+### Enunciado
+Una agencia de exploración almacena los descubrimientos de sus expediciones en un archivo llamado `descubrimientos.txt`. Desarrolla un programa en Java que permita agregar nuevos descubrimientos al final del archivo sin borrar los anteriores, leer y contar todos los registros almacenados, y buscar coincidencias de texto dentro del archivo utilizando `BufferedReader` y `FileWriter`.
+
+### Descripción de la resolución
+Para resolver este ejercicio, se implementa un menú interactivo en bucle controlado por opciones. Se utiliza la clase `FileWriter` activando el parámetro booleano `true` para habilitar el modo *append*, lo que permite agregar líneas nuevas al final del archivo de texto `descubrimientos.txt`. Para la lectura y búsqueda, se emplea `BufferedReader` con un bucle `while` que recorre el archivo línea por línea contando los registros e identificando palabras clave mediante `contains()`.
+
+### Evidencia de ejecución
+<img width="267" height="142" alt="image" src="https://github.com/user-attachments/assets/81c088ae-d989-41b2-a4ca-26b6d3d41a97" />
+
+---
+
+## Ejercicio 10: Sistema de ventas – Procesamiento y análisis de datos
+
+**Tema:** Procesamiento, análisis numérico y filtrado de registros desde archivos de texto.
+
+### Enunciado
+Un sistema de comercialización registra las transacciones de productos en un archivo llamado `ventas.txt`. Desarrolla un programa en Java que permita registrar nuevas ventas (producto y precio), leer el archivo completo calculando el total acumulado y detectando el producto más caro, y filtrar las ventas superiores a un valor mínimo ingresado por el usuario.
+
+### Descripción de la resolución
+Se utiliza la gestión de ficheros mediante `BufferedWriter` y `FileWriter` para almacenar de forma estructurada cada venta separada por comas (`producto,precio`). Al leer los datos, se utiliza `BufferedReader` procesando cada línea con el método `split(",")` para separar las cadenas de texto, convertir los precios a formato numérico (`double`), acumular el valor total de las ventas, determinar el valor máximo y aplicar filtros de búsqueda por precio.
+
+### Evidencia de ejecución
+<img width="456" height="301" alt="image" src="https://github.com/user-attachments/assets/1fa2caa7-90ce-4254-a2ba-7f21cf764b50" />
