@@ -45,37 +45,7 @@ Para resolver este ejercicio, se utiliza el archivo obras.txt, que contiene los 
 
 ---
 
-## Ejercicio 4: Parque de aventuras – Resultados de participantes
-**Tema:** Lectura de archivos con BufferedReader y procesamiento de datos.
 
-### Enunciado
-Un parque de aventuras almacena los nombres y puntajes de sus participantes en un archivo llamado resultados.txt. Desarrolla un programa que lea la información utilizando BufferedReader, muestre los participantes, calcule el puntaje total e identifique el puntaje más alto.
-
-### Descripción de la resolución
-Para resolver este ejercicio, se utiliza la clase BufferedReader para leer la información almacenada en el archivo resultados.txt. Se recorren los registros para obtener los nombres y puntajes de los participantes, mostrando cada uno en la consola. Durante la lectura, se utiliza una variable acumuladora para calcular el puntaje total y otra variable para identificar el puntaje más alto registrado. Finalmente, se muestran los participantes, el puntaje acumulado y el puntaje máximo obtenido.
-
-### Evidencia de ejecución
-<img width="588" height="164" alt="image" src="https://github.com/user-attachments/assets/95d239f7-5bea-4d38-a18c-5f166d56e97a" />
-
----
-
-## Ejercicio 5: Biblioteca inteligente – Administración de libros
-
-**Tema:** Escritura y lectura de archivos con FileWriter, BufferedWriter y BufferedReader.
-
-### Enunciado
-
-Una biblioteca necesita administrar sus libros mediante un archivo llamado libros.txt. Desarrolla un programa en Java que permita registrar nuevos libros, agregar información sin eliminar los registros anteriores, leer los títulos almacenados y buscar un libro específico. Además, debe contar los libros registrados y validar que el archivo exista antes de realizar la lectura.
-
-### Descripción de la resolución
-
-Para resolver este ejercicio, se crea un programa con un menú de opciones que se repite hasta que el usuario elige salir. Para registrar un libro se utiliza la clase FileWriter en modo agregar (append = true) junto con BufferedWriter, de modo que cada nuevo título se escribe al final del archivo libros.txt sin eliminar los registros anteriores. Antes de listar, buscar o contar, se utiliza la clase File para validar que el archivo exista; si no existe, se muestra un mensaje al usuario. La lectura se realiza con BufferedReader, recorriendo el archivo línea por línea: para listar se muestran los títulos numerados, para buscar se compara cada título con el ingresado sin distinguir mayúsculas de minúsculas, y para contar se utiliza una variable acumuladora que suma los registros no vacíos. Los posibles errores de entrada y salida se controlan con try-catch (IOException).
-
-### Evidencia de ejecución
-
-<img width="471" height="351" alt="image" src="https://github.com/user-attachments/assets/65ddbfb0-cae6-4308-af44-40a8e5953474" />
-
----
 
 ## Ejercicio 6: Sistema de mensajes secretos
 
