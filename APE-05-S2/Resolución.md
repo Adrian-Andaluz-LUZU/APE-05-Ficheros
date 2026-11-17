@@ -95,33 +95,37 @@ Para resolver este ejercicio, se crea un programa con un menú de opciones que s
 
 ---
 
+# EJERCICIO 7: Competencia de videojuegos
 
+## Enunciado
+Una competencia registra los nombres y puntuaciones de sus jugadores en un archivo llamado `jugadores.txt`. Cada línea contiene el nombre del jugador y su puntuación, separados por una coma. Desarrolla un programa que lea los registros, convierta las puntuaciones de texto a números, calcule el promedio, identifique al jugador con mayor puntaje y filtre a los participantes que obtuvieron una puntuación superior a 70. También deberá validar el formato de los registros.
 
+## Descripción de la solución
+Se desarrolló un programa en Java que utiliza `FileReader` y `BufferedReader` para leer los datos almacenados en el archivo `jugadores.txt` línea por línea. Mediante el método `split()` se separa el nombre del jugador de su puntuación y con `Integer.parseInt()` se convierte el puntaje de texto a número entero.
 
+El programa calcula el promedio de las puntuaciones, identifica al jugador con el mayor puntaje y muestra únicamente los participantes que obtuvieron más de 70 puntos. Además, utiliza `try-catch` para controlar errores de lectura y `NumberFormatException` para validar los datos numéricos.
 
+### Evidencia de ejecución
 
+<img width="418" height="468" alt="WhatsApp Image 2026-11-16 at 10 11 18 PM" src="https://github.com/user-attachments/assets/0ad363bb-3344-40d0-8f7d-b71c12585133" />
 
+---
 
+# EJERCICIO 8: Control de temperatura
 
+## Enunciado
+Una estación meteorológica almacena las temperaturas registradas durante una semana en un archivo llamado `temperaturas.txt`. Desarrolla un programa que permita guardar nuevas temperaturas, leer los registros y convertir los datos almacenados a valores numéricos. El programa deberá calcular la temperatura promedio, identificar la temperatura más alta y determinar cuántos registros superan los 30 grados. Además, deberá controlar los errores cuando los datos no tengan un formato numérico válido.
 
+## Descripción de la solución
+Se desarrolló un programa en Java que utiliza `FileWriter` y `BufferedWriter` para guardar nuevas temperaturas en el archivo `temperaturas.txt`, agregando información sin eliminar los registros anteriores.
 
+Para leer los datos se utilizan `FileReader` y `BufferedReader`, que permiten procesar las temperaturas línea por línea. Mediante `Double.parseDouble()` se convierten los valores almacenados en números decimales.
 
+El programa calcula la temperatura promedio, identifica el valor más alto y cuenta cuántos registros superan los 30 grados. Finalmente, utiliza `try-catch` y `NumberFormatException` para controlar posibles errores durante la lectura, escritura y conversión de los datos.
 
+### Evidencia de ejecución
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="482" height="483" alt="WhatsApp Image 2026-11-16 at 10 11 32 PM" src="https://github.com/user-attachments/assets/25fa0fc0-4d58-442f-8165-39a79018b433" />
 
 ---
 
